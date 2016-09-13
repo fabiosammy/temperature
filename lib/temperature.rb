@@ -5,6 +5,10 @@ module Temperature
     "Hello World"
   end
 
+  def self.no
+    "Forgot!"
+  end
+
   class Temperature
     attr_accessor :value, :unit
     def initialize(value, unit)
